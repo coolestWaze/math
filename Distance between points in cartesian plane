@@ -1,0 +1,13 @@
+try:
+    import math
+    x1 = int(input('digite o valor de x1: '))
+    x2 = int(input("digite o valor de x2: "))
+    y1 = int(input('digite o valor de y1: '))
+    y2 = int(input("digite o valor de y2: "))
+    dist = math.pow(x2 - x1, 2) + math.pow(y2 - y1, 2)
+    sq = math.sqrt(dist)
+    print (f'{sq:.2f}')
+except ValueError:
+    print('adicione um número válido.')
+
+#formula = √(x1-y1)²+(x2-y2)² = Dxz
