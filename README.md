@@ -1,3 +1,3 @@
 # math
 
--- I'll try some stuff from math library here.
+-- I'll try some stuff about math here.
