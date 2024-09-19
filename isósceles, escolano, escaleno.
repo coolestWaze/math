@@ -1,0 +1,14 @@
+print('Qual os 3 lados do triângulo?')
+la = float(input('Primeiro lado - '))
+la2 = float(input('Segundo lado - '))
+la3 = float(input('Terceiro lado - '))
+if la < la2 + la3 and la2 < la + la3 and la3 < la + la2:
+    print('Os segmentos PODEM FORMAR um triângulo:', end=' ')
+    if la == la2 and la == la3:
+        print("EQUILÁTERO.")
+    elif la == la2 or la == la3 or la2 == la3:
+        print("ISÓSCELES.")
+    else:
+        print("ESCALENO.")
+else:
+    print('Os segmentos NÃO PODEM FORMAR um triângulo.')
