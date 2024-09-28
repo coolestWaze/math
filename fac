@@ -1,0 +1,4 @@
+from math import factorial
+x = int(input('Digite um valor: '))
+l = factorial(x)
+print(f'O fatorial de {x} é {l}')
