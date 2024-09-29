@@ -1,0 +1,46 @@
+import math
+def adicao(a, b):
+    return a+b
+def sub(a, b):
+    return a-b
+def multi(a, b):
+    return a*b
+def sqrt(a):
+    return math.sqrt(a)
+def div(a, b):
+    return a/b
+def rest(a, b):
+    return a%b
+n1 = int(input('Digite o primeiro número: '))
+n2 = int(input('Digite o segundo número: '))
+print('''Oque deseja fazer com estes números? 
+[ 1 ] - adição
+[ 2 ] - subtração
+[ 3 ] - multiplicação
+[ 4 ] - raiz quadrada (primeiro número)
+[ 5 ] - divisão
+[ 6 ] - resto da divisão
+[ 7 ] - sair da calculadora''')
+act = int(input('Escolha o cálculo: '))
+while act != 7:
+    if act == 1:
+        print(adicao(n1, n2))
+        break
+    elif act == 2:
+        print(sub(n1, n2))
+        break
+    elif act == 3:
+        print(multi(n1, n2))
+        break
+    elif act == 4:
+        print(sqrt(n1))
+        break
+    elif act == 5:
+        print(div(n1, n2))
+        break
+    elif act == 6:
+        print(rest(n1, n2))
+        break
+    break
+if act == 4:
+    exit()
