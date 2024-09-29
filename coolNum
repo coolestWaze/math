@@ -1,0 +1,11 @@
+import math
+num = int(input('Digit a number '))
+def is_cool():
+    if math.sqrt(num/2) == 1 or math.sqrt(num/2) == 2:
+        return True
+    else:
+        return False
+if is_cool() == True:
+    print('It is cool.')
+else:
+    print('It is not cool.')
