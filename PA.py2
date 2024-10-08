@@ -1,0 +1,6 @@
+pt = int(input('Informe o primeiro termo: '))
+r = int(input('Informe a razão: '))
+decimo = pt+(10-1)*r
+for i in range(pt, decimo, r):
+    print(f'{i} ', end='--> ')
+print('Fim')
